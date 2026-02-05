@@ -1,0 +1,14 @@
+button {
+    border-radius: 20px;
+    padding: 10px 8px ;
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+button:hover {
+    background-color: aqua;
+    color: red;
+    text-shadow: 1px 1px 3px blue;
+    border-radius: 0.1px;
+    transition: 500ms;
+    box-shadow: 2px 2px 5px black;
+}

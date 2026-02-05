@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(135deg, hsl(349.32deg 66.36% 56.86%), hsl(257.3deg 49.33% 44.12%));
+   height: 84vh;
+}
+
+.div1 {
+  background-color: hsl(175, 61%, 71%);
+  width: 900px;
+  height: 434px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  color: white;
+}
+
+th {
+   padding-top: 25px;
+  padding-left: 85px;
+  text-align: start;
+}
+
+td {
+  padding: 14px 85px;
+}
+
+td:hover {
+  background-color: hsl(162.31deg 38.61% 60.39%);
+}

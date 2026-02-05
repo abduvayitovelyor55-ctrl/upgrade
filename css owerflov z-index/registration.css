@@ -1,0 +1,94 @@
+html,
+body {
+    height: 94%;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/wave-gradient-background-luxury-dark-modern-design_343694-3088.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-div {
+    background-color: transparent;
+    box-shadow: 1px 1px 10px black;
+    margin: 40px 670px;
+    width: 500px;
+    height: 580px;
+    display: block;
+    border-radius: 8px;
+}
+
+input {
+    padding-left: 10px;
+    color: white;
+}
+
+.welcome {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 80px;
+    margin-left: 190px;
+    padding-top: 30px;
+}
+
+::placeholder {
+    color: rgb(236, 236, 236);
+    padding-left: 15px;
+}
+
+.userame-or-email {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    margin: 15px 30px;
+}
+
+.password {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    background: transparent;
+    margin: 15px 30px;
+
+}
+
+.password:hover {
+    border: 1px solid white;
+}
+
+.type {
+    display: flex;
+    margin-left: 35px;
+}
+
+.forgot-password {
+    margin-left: 180px;
+    color: white;
+}
+
+.remember-me {
+    color: white;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-top: 60px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    background-color: gray;
+    background-image: linear-gradient(90deg, black, rgb(56, 56, 56), gray, rgb(56, 56, 56), black);
+}
+
+button:hover {
+    box-shadow: 1px 1px 8px white;
+    background-color: transparent;
+    color: white;
+}

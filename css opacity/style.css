@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    height: 50px;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.left-div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.left-div a {
+    padding: 15px 10px;
+}
+
+.left-div a:hover {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 10px;
+}
+
+.first-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.input-div1 {
+    display: flex;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.search-input1 {
+    border: none;
+    margin-left: 15px;
+}
+
+.search-icon1 {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.right-div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.right-div a {
+    padding: 12px 15px;
+}
+
+.right-div a:hover {
+    background-color: rgb(255, 244, 231);
+    padding: 12px 15px;
+    border-radius: 30px;
+}
+
+.sign-in {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+.sign-in:hover {
+    background-color: #029660;
+}
+
+/* NAV */
+
+nav {
+    background-color: #282A35;
+    position: sticky;
+    top: 50px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+/* main */
+
+.main1 {
+    background-color: #282A35;
+    margin-top: -47px;
+    height: 450px;
+}
+
+.Learn-to-Code {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+.With-the-worlds {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #FFF4A3;
+}
+
+.main-search-div {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    width: 600px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+
+}
+
+.main-search-input {
+    width: 80%;
+    height: 46px;
+    padding: 10px;
+    padding-left: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: left;
+    border: none;
+}
+
+.search-icon2 {
+    background-color: #04AA6D;
+    padding: 10.3px 48px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.Not-Sure-Where {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+.wave {
+    background-color: #D9EEE1;
+    width: 100%;
+    height: 72px;
+}
+
+/* main2 */
+
+.main2 {
+    display: flex;
+    background-color: #D9EEE1;
+    margin-top: -26px;
+    height: 600px;
+}
+
+.html-button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+.html {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.The-language {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Learn-HTML {
+    background-color: #04AA6D;
+    width: 200px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.Video-Tutorial {
+    background-color: #FFF4A3;
+    width: 200px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.HTML-Reference {
+    background-color: #282A35;
+    width: 200px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.Get-Certified {
+    background-color: #FFC0C7;
+    width: 200px;
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.HTML-Example-div {
+    background-color: #E7E9EB;
+    box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
+    width: 450px;
+    height: 470px;
+    margin-left: 150px;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+
+.HTML-Example {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 22px;
+}
+
+.pre {
+    background-color: white;
+    width: 380px;
+    height: 300px;
+    font-size: 17px;
+    margin: auto;
+    border-left: 5px solid #029660;
+}
+
+.pre pre {
+    margin-left: -200px;
+    padding-top: 25px;
+}
+
+.Try-it-Yourself {
+    background-color: #04AA6D;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 50px;
+}
+
+/* main 3 */
+
+.main3 {
+    height: 650px;
+    background-color: #FFF4A3;
+    display: flex;
+    margin-left: -80px;
+}
+
+/* main 4 */
+
+.main4 {
+    display: flex;
+    background-color: #282A35;
+    margin-left: -80px;
+    height: 600px;
+}
+
+
+.JavaScript {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.JavaScript-Example {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 22px;
+    color: white;
+}
+
+.JavaScript-Reference {
+    background-color: white;
+    width: 200px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 18px;
+}
+.JavaScript-pre2 {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 60px;
+    border-left: 5px solid #04AA6D;
+    background-color: white;
+}
+.JavaScript-pre2 pre{
+    margin-left: -180px;
+    padding-top: 30px;
+}
+.Try-it-Yourself-JavaScript {
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+}
+.Try-it-Yourself-css {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}

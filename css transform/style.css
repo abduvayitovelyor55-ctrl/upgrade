@@ -1,0 +1,387 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://media.istockphoto.com/id/1431862546/photo/technology-network-background-concept.jpg?s=612x612&w=0&k=20&c=4ZlkcEjTY8q7OAkoCTugwK7gTMV0dSeX6Gn-mRpXjJY=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin: 0;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.alitech-icon {
+    margin-left: -100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+.link {
+    position: relative;
+    color: white;
+    text-decoration: none;
+
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 0.3s;
+
+}
+
+.link:hover::after {
+    transform: scale(1);
+}
+
+.phone-number {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(28, 50, 160);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.line {
+    margin-top: 40px;
+    background-color: #3498db;
+}
+
+.welcome {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "VisueltPro", sans-serif;
+    margin-top: 150px;
+}
+
+.Web-Solutions {
+    font-size: 70px;
+    font-family: "VizualtPro", sans-serif;
+    line-height: 80px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(28, 50, 160);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.link-btn span {
+    z-index: 2;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 4px;
+
+}
+
+.link-btn::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: orange;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.link-btn:hover::after {
+    width: 100%;
+}
+
+.phone_animation {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 1120px;
+    margin-top: 100px;
+    background-color: #3498db;
+    animation-name: myAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+
+    &:hover {
+        background-color: #407d23;
+    }
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 20px;
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+
+}
+
+.box {
+    position: absolute;
+    margin-left: 1125px;
+    margin-top: 105px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff56;
+    opacity: 0.5;
+    animation-name: box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    z-index: 4;
+}
+
+@keyframes box {
+    0% {
+        transform: scale(0.1);
+    }
+
+    25% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.1);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.1);
+    }
+}
+
+.div1 {
+    height: 700px;
+    background-color: black;
+}
+
+.services-section {
+    color: rgb(247, 132, 17);
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 200px;
+    font-size: 14px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.we-provide {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: "VizueltPro", sans-serif;
+
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    border: 2px solid #494949;
+    font-family: "VizualtProo", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    line-height: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: #aaaaaa;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background: rgb(247, 132, 17);
+    color: #fff;
+}
+
+.div2 {
+    background-color: #f4f4f4;
+    height: 450px;
+    margin-top: -23px;
+    padding-top: 50px;
+    color: #000;
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "VizualtPro", sans-serif;
+        margin-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        color: #818181;
+        line-height: 32px;
+        letter-spacing: 0.64px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    }
+}
+
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+    input {
+        width: 300px;
+        height: 70px;
+        border: none;
+    }
+        
+    ::placeholder {
+        padding-left: 20px;
+    }
+}
+
+.link-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(28, 50, 160);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.link-btn2 span {
+    z-index: 2;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 4px;
+
+}
+
+.link-btn2::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: orange;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.link-btn2:hover::after {
+    width: 100%;
+}

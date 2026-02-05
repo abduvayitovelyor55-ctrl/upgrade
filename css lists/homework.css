@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(6.46deg 55.56% 54.12%);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: hsl(217.71deg 22.29% 30.78%);
+    border-collapse: collapse;
+    color: white;
+    width: 1150px;
+    height: 572.5px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 13px 50px;
+}
+
+td {
+    padding: 20px 50px;
+    width: 100vh;
+    height: 100%;
+}
+
+.blue {
+    background-color: hsl(211.28deg 58.79% 60.98%);
+}
+
+.bluevoilet {
+    background-color: hsl(275.85deg 33.88% 52.55%);
+}
+
+.green {
+    background-color: hsl(124.88deg 43.88% 61.57%);
+}
+
+.orange {
+    background-color: hsl(35.78deg 71.56% 55.88%);
+}
+
+.red {
+    background-color: hsl(6.46deg 55.56% 54.12%);
+}
+
+.gray {
+    background-color: hsl(217.71deg 22.29% 30.78%);
+}
+
+.lightgray {
+    background-color: hsl(0deg 0% 94.51%);
+}
+
+.white {
+    background-color: hsl(0deg 0% 99.22%);
+}

@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/16/e8/63/16e8638d1fdf76b782aae366a28c0299.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 85vh;
+}
+
+.mainbox {
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
+    background-color: transparent;
+    height: 550px;
+    width: 35vw;
+    backdrop-filter: blur(8px);
+    margin: 100px auto;
+    border-radius: 5px;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.input1 {
+    margin: auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    height: 20px;
+    width: 30vw;
+    padding: 5px 10px;
+    transition: 200ms;
+}
+
+.input1:hover {
+    width: 31vw;
+    height: 22px;
+}
+
+.input1:active {
+    width: 29.5vw;
+    height: 19.5px;
+}
+
+.input2 {
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    height: 20px;
+    width: 30vw;
+    padding: 5px 10px;
+    transition: 200ms;
+}
+
+.input2:hover {
+    width: 31vw;
+    height: 22px;
+}
+
+.input2:active {
+    width: 29.5vw;
+    height: 19.5px;
+}
+
+img {
+    position: absolute;
+    height: 25px;
+    margin-left: 290px;
+}
+
+.endbox {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    margin-top: 341px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.arrow {
+    background-color: black;
+    margin-top: 291px;
+    margin-left: 200px;
+    height: 30px;
+    width: 55px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plus {
+    background-color: lawngreen;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.plus:hover {
+    box-shadow: 0 0 10px lawngreen;
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+button {
+    background-color: red;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-family: sans-serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+    padding: 8px 16px;
+    transition: 0.3s;
+}

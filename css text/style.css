@@ -1,0 +1,62 @@
+.cupcake {
+    background-color: rgb(78, 131, 212);
+    width: 1125px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+    padding: 10px 50px;
+    font-style: italic;
+    font-family: "Sekuya", system-ui;
+    font-family: "Sekuya", system-ui;
+}
+
+.p1 {}
+
+.two {
+    background-color: rgb(65, 219, 65);
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 15px;
+    border: 4px solid green;
+
+}
+
+.ass {
+    text-align: end;
+
+}
+
+.want {
+    background-color: rgb(250, 86, 86);
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+    border: 4px solid red;
+}
+
+.click {
+    font-size: 30px;
+    padding: 50px;
+}
+
+.end {
+    background-color: rgb(34, 37, 70);
+    color: white;
+
+}
+
+.first {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.sweet {
+    padding: 30px;
+}

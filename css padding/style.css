@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to bottom right, blue, red);
+    height: 100vh;
+}
+.class {
+    margin: 100px 200px;
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+}
+.class2 {
+    background-color: white;
+    margin: 100px 100px ;
+    height: 350px;
+    width: 600px;
+    margin-top: 100px;
+}

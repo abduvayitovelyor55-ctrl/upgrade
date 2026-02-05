@@ -1,0 +1,39 @@
+.bir {
+  border: 20px solid black;
+  width: 500px;
+  border-width: 20px ;
+   height: 20px;
+   background-color: rosybrown;
+   border-color:;
+   border-top-color: green;
+   
+}
+.ikki {
+  border: 20px solid black;
+  width: 500px;
+  border-width: 20px ;
+   height: 20px;
+   background-color: rosybrown;
+   border-color:;
+   border-bottom-color: red;
+}
+.uch {
+  
+  border: 20px solid black;
+  width: 500px;
+  border-width: 20px ;
+   height: 20px;
+   background-color: rosybrown;
+   border-color:;
+   border-left-color: green;
+}
+.tort {
+  
+  border: 20px solid black;
+  width: 500px;
+  border-width: 20px ;
+   height: 20px;
+   background-color: rosybrown;
+   border-color:;
+   border-right-color: yellow;
+}

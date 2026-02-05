@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(135deg, green 35%, white 35% );
+    height: 100vh;
+}
+.div1 {
+    color: white;
+    font-size: 90px;
+    padding-top : 50px;
+    padding-left: 40px;
+}
+.p1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 30px ;
+    padding-left: 50px;
+}
+.btn {
+    padding: 15px 50px;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+}
+.div2 {
+    padding-top:  ;
+    padding-left: 900px;
+    color: black;
+    font-size: 40px;
+}
+.fname {
+    padding: 
+}

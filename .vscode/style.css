@@ -1,0 +1,50 @@
+.apps-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-left: 500px;
+  }
+  
+  /* icon */
+  .apps-btn {
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* menu */
+  .apps-menu {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 160px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5px);
+    transition: 0.2s ease;
+  }
+  
+  /* checkbox bosilganda menu chiqadi */
+  #apps-toggle:checked + .apps-btn + .apps-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .apps-menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .apps-menu a:hover {
+    background: #f1f1f1;
+  }
+  

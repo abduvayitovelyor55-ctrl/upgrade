@@ -1,0 +1,96 @@
+.div1 {
+    background-color: blueviolet;
+    height: 200px;
+    padding: 05px;
+}
+
+.p1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: 2px double underline yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.p2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: 2px double underline yellow;
+    font-weight: 500;
+}
+
+.div2 {
+    background-color: rgb(104, 0, 202);
+    height: 40px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+
+.div3 {
+    border: 2px solid rgb(104, 0, 202);
+    height: 730px;
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.p3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(104, 0, 202);
+    margin-left: 20px;
+}
+
+.p4 {
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+.photo {
+    width: 1100px;
+    height: 570px;
+    margin: 30px;
+}
+
+.div4 {
+    border: 2px solid rgb(104, 0, 202);
+    margin: 0 auto;
+    width: 1170px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.p5 {
+    color: rgb(104, 0, 202);
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.p6 {
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+.div5 {
+    background-color: rgb(104, 0, 202);
+    height: 50px;
+}
+
+.p7 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+
+}

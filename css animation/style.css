@@ -1,0 +1,51 @@
+@keyframes myAnimation {
+    0% {
+        background-color: yellow;
+        left: 100px;
+        top: 10px;
+
+    }
+
+    25% {
+        background-color: red;
+        top:40px;
+        left: 100px;
+    }
+    50% {
+        background-color: blue;
+        top: 40px;
+        left: 10px;
+    }
+    75% {
+        background-color: greenyellow;
+        left: 10px;
+        top: 10px;
+    }
+    100% {
+        background-color: orange;
+        top: 10px;
+        left: 100px;
+    }
+}
+
+div {
+    animation-name: myAnimation;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    animation-duration: 5s;
+    background-color: skyblue;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+}
+button {
+    position: absolute;
+    border-radius: 25px;
+    width: 185px;
+    height: 80px;
+    margin-top: -60px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+
+}

@@ -1,0 +1,9 @@
+.color {
+    background-image: conic-gradient( blue 0% 15%, orange 15% 20%, rgb(88, 88, 88) 20% 25%,yellow 25% 43%, rgb(77, 77, 233) 43% 51%, green 51%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.colors {
+    background-image: conic-gradient();
+}

@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/10/11/09/mountain-8499331__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+
+}
+
+.head-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.input1 {
+    display: none;
+}
+
+input:checked + ul {
+    display: block;
+}
+
+ul {
+    display: none;
+    list-style: none;
+}

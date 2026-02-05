@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://cdn.pixabay.com/index/2025/11/13/07-11-12-38_1440x550.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 1220px 590px;
+}
+h1 {
+    color: white;
+}
+a {
+    color: white;
+    
+}
+.asos {
+    display: inline-block;
+    width: 89%;
+}
+form {
+    background-color: transparent;
+}

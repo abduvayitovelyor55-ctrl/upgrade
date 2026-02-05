@@ -1,0 +1,35 @@
+div {
+  background-attachment: fixed;
+  background-color: white;
+  border-radius: 50px;
+  width: 400px;
+  height: 1000px;
+  color: white;
+  
+}
+  img {
+    width: 380px;
+    height: 650px;
+    border-radius: 50px;
+    border-left: 80px;
+    
+  }
+  section {
+    height: 100vh;
+  background-attachment: fixed;
+  background-image: url("https://cdn.pixabay.com/photo/2025/07/17/10/16/firefly-9719231_1280.png");
+  }
+.bg-road {
+  background-image: url("https://cdn.pixabay.com/photo/2025/10/04/09/27/fern-9872693_1280.jpg");
+}
+.qwert {
+  background-image: url("https://cdn.pixabay.com/photo/2025/11/13/17/30/common-nettle-9955222_1280.jpg");
+}
+.height {
+  background-color: black;
+  width: 400px;
+  height: 2700px;
+  border-radius: 50px;
+  background-image: url("https://cdn.pixabay.com/photo/2025/10/19/15/01/ant-9904052_1280.jpg");
+  border-bottom: 20px;
+}

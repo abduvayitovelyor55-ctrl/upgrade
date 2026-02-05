@@ -1,0 +1,259 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1432498790/photo/closeup-of-freezing-soap-bubbles-covered-with-lacy-crystals-isolated-on-black-background.jpg?s=612x612&w=0&k=20&c=u3gkMjdhN3CYGcWJXeZgk2_Jp4HTZx8zKJuT3dZa0Qk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*   header   */
+
+.main {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    text-shadow: 5px 5px 20px black, white;
+    display: flex;
+}
+
+.header2 {
+    gap: 10px;
+}
+
+.img_microsoft {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+
+.link1 {
+    margin-top: 18px;
+    display: flex;
+    word-spacing: 7px;
+}
+
+a {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline white;
+}
+
+.img_copilot {
+    width: 24px;
+    height: 24px;
+    margin-left: 50px;
+}
+
+option {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    z-index: 4;
+}
+
+.select {
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+.sign_in {
+    color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    margin-left: 500px;
+    gap: 20px;
+}
+
+.sign_in:hover {
+    color: white;
+}
+
+
+/* section    */
+
+input {
+    width: 800px;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+}
+
+.search_history {
+    position: absolute;
+    width: 66%;
+    height: 50px;
+    border: none;
+    outline: none;
+
+}
+
+.search_history:hover {
+    background-color: rgb(245, 244, 244);
+}
+
+input:hover {
+    background-color: rgb(245, 244, 244);
+}
+
+.search_div {
+    display: block;
+    background-color: white;
+    height: 50px;
+    width: 940px;
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 40px;
+    display: flex;
+
+}
+
+.search_div:hover {
+    background-color: rgb(245, 244, 244);
+    box-shadow: 2px 2px 10px white, -2px -2px 10px white;
+}
+
+.search_icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.microphone_icon {
+    width: 30px;
+    height: 25px;
+    margin-top: 10px;
+    color: #3a4ddb;
+}
+
+.microphone_icon:hover {
+    background-color: rgb(245, 244, 244);
+}
+
+.camera_icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.input_main {
+    display: flex;
+}
+
+.copilot_ai_div {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 10px;
+    display: absolute;
+}
+
+.copilot_icon {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.main_div {
+    width: 400px;
+    height: 50px;
+    display: inline-flex;
+    margin: 20px 130px;
+    font-weight: inherit;
+    border-collapse: collapse;
+}
+
+.image_create_div {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.image_create_div:hover {
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+.image_create_text {
+    color: black;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.image_create_icon {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.video_create_div {
+    background-color: rgb(216, 216, 216);
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+}
+
+.video_create_icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.video_create_text {
+    color: black;
+    margin-left: 5px;
+    margin-top: 15px;
+}

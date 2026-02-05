@@ -1,0 +1,112 @@
+.div1 {
+    background-color: rgb(0, 115, 255);
+    color: white;
+    height: 200px;
+    padding: 1px;
+
+}
+
+.p1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline yellow;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.p2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.div2 {
+    background-color: rgb(0, 0, 191);
+    height: 70px;
+    text-align: center;
+}
+
+button {
+    margin: 25px;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    border: none;
+}
+
+.div3 {
+    background-color: rgb(239, 239, 239);
+    height: 400px;
+    margin-top: 1px;
+    padding: 1px;
+}
+
+.div4 {
+    background-color: white;
+    width: 1150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.p3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(0, 115, 255);
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.div5 {
+    background-color: white;
+    width: 1150px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.p4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.p5 {
+    text-transform: uppercase;
+    color: rgb(0, 115, 255);
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.p6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.p7 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.div6 {
+    background-color: rgb(0, 115, 255);
+    height: 50px;
+}
+
+.p8 {
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 15px;
+}

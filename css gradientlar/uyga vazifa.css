@@ -1,0 +1,127 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/05/19/56/bachalpsee-7572681_1280.jpg");
+    height: 100vh;
+}
+.asos {
+    text-align: center, ;
+}
+.joylashuv {
+    text-align: center;
+}
+.btn1 {
+    background-image: linear-gradient(to right,blue, green)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px ;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    
+}
+.btn2 {
+    background-image: linear-gradient(to right,yellow, red)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.btn3 {
+    background-image: linear-gradient(to right,blue, rgb(126, 40, 184))  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.joylashuv2 {
+    text-align: center;
+}
+.btn4 {
+    background-image: linear-gradient(to right,red, orange)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    
+}
+.btn5 {
+    background-image: linear-gradient(to right,lightgreen, darkgreen)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.btn6 {
+    background-image: linear-gradient(to right,green, yellow)  ;
+    color: white;
+    font-size:40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.joylashuv3 {
+    text-align: center;
+}
+.btn7 {
+    background-image: linear-gradient(to right,blue, purple)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+}
+.btn8 {
+    background-image: linear-gradient(to right,black, gray)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.joylashuv4 {
+    text-align: center;
+}
+.btn9 {
+    background-image: linear-gradient(to right,lightblue, darkblue)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}
+.btn10 {
+    background-image: linear-gradient(to right,red, orange)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+}
+.btn11 {
+    background-image: linear-gradient(to right,red, darkorange)  ;
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 0 10px 15px black;
+    border: none;
+    margin-left: 50px;
+}

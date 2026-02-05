@@ -1,0 +1,8 @@
+section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("https://cdn.pixabay.com/photo/2025/09/07/10/32/mountain-layers-9820349_1280.jpg");
+}
+.bg-red {
+    background-image: url("https://cdn.pixabay.com/photo/2025/11/04/15/22/amsterdam-9936659_1280.jpg");
+}
