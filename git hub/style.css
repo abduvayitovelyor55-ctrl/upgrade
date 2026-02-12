@@ -308,7 +308,7 @@ a {
 .advantage__left {
     flex-wrap: wrap;
 
-    p {
+    .p {
         flex-wrap: wrap;
     }
 
